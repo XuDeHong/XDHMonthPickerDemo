@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844AD90F1D694C0D0001AF85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 844AD90E1D694C0D0001AF85 /* main.m */; };
+		844AD9121D694C0D0001AF85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 844AD9111D694C0D0001AF85 /* AppDelegate.m */; };
+		844AD9151D694C0D0001AF85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844AD9141D694C0D0001AF85 /* ViewController.m */; };
+		844AD9181D694C0D0001AF85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844AD9161D694C0D0001AF85 /* Main.storyboard */; };
+		844AD91A1D694C0D0001AF85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844AD9191D694C0D0001AF85 /* Assets.xcassets */; };
+		844AD91D1D694C0D0001AF85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844AD91B1D694C0D0001AF85 /* LaunchScreen.storyboard */; };
+		844AD9281D694C0D0001AF85 /* XDHMonthPickerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844AD9271D694C0D0001AF85 /* XDHMonthPickerDemoTests.m */; };
+		844AD9331D694C0D0001AF85 /* XDHMonthPickerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844AD9321D694C0D0001AF85 /* XDHMonthPickerDemoUITests.m */; };
+		84D536271D694D250053BE0F /* MonthPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D536251D694D250053BE0F /* MonthPickerViewController.m */; };
+		84D536281D694D250053BE0F /* MonthPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D536261D694D250053BE0F /* MonthPickerViewController.xib */; };
+		84D5362B1D694D4F0053BE0F /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5362A1D694D4F0053BE0F /* UIView+Category.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		844AD9241D694C0D0001AF85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844AD9021D694C0C0001AF85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844AD9091D694C0D0001AF85;
+			remoteInfo = XDHMonthPickerDemo;
+		};
+		844AD92F1D694C0D0001AF85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844AD9021D694C0C0001AF85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844AD9091D694C0D0001AF85;
+			remoteInfo = XDHMonthPickerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		844AD90A1D694C0D0001AF85 /* XDHMonthPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDHMonthPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		844AD90E1D694C0D0001AF85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		844AD9101D694C0D0001AF85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		844AD9111D694C0D0001AF85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		844AD9131D694C0D0001AF85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		844AD9141D694C0D0001AF85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		844AD9171D694C0D0001AF85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		844AD9191D694C0D0001AF85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		844AD91C1D694C0D0001AF85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		844AD91E1D694C0D0001AF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844AD9231D694C0D0001AF85 /* XDHMonthPickerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDHMonthPickerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		844AD9271D694C0D0001AF85 /* XDHMonthPickerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDHMonthPickerDemoTests.m; sourceTree = "<group>"; };
+		844AD9291D694C0D0001AF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844AD92E1D694C0D0001AF85 /* XDHMonthPickerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDHMonthPickerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		844AD9321D694C0D0001AF85 /* XDHMonthPickerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDHMonthPickerDemoUITests.m; sourceTree = "<group>"; };
+		844AD9341D694C0D0001AF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D536241D694D250053BE0F /* MonthPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonthPickerViewController.h; sourceTree = "<group>"; };
+		84D536251D694D250053BE0F /* MonthPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthPickerViewController.m; sourceTree = "<group>"; };
+		84D536261D694D250053BE0F /* MonthPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MonthPickerViewController.xib; sourceTree = "<group>"; };
+		84D536291D694D4F0053BE0F /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		84D5362A1D694D4F0053BE0F /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844AD9071D694C0D0001AF85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844AD9201D694C0D0001AF85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844AD92B1D694C0D0001AF85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		844AD9011D694C0C0001AF85 = {
+			isa = PBXGroup;
+			children = (
+				844AD90C1D694C0D0001AF85 /* XDHMonthPickerDemo */,
+				844AD9261D694C0D0001AF85 /* XDHMonthPickerDemoTests */,
+				844AD9311D694C0D0001AF85 /* XDHMonthPickerDemoUITests */,
+				844AD90B1D694C0D0001AF85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		844AD90B1D694C0D0001AF85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844AD90A1D694C0D0001AF85 /* XDHMonthPickerDemo.app */,
+				844AD9231D694C0D0001AF85 /* XDHMonthPickerDemoTests.xctest */,
+				844AD92E1D694C0D0001AF85 /* XDHMonthPickerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844AD90C1D694C0D0001AF85 /* XDHMonthPickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				844AD9101D694C0D0001AF85 /* AppDelegate.h */,
+				844AD9111D694C0D0001AF85 /* AppDelegate.m */,
+				844AD9131D694C0D0001AF85 /* ViewController.h */,
+				844AD9141D694C0D0001AF85 /* ViewController.m */,
+				84D536241D694D250053BE0F /* MonthPickerViewController.h */,
+				84D536251D694D250053BE0F /* MonthPickerViewController.m */,
+				84D536291D694D4F0053BE0F /* UIView+Category.h */,
+				84D5362A1D694D4F0053BE0F /* UIView+Category.m */,
+				84D536261D694D250053BE0F /* MonthPickerViewController.xib */,
+				844AD9161D694C0D0001AF85 /* Main.storyboard */,
+				844AD9191D694C0D0001AF85 /* Assets.xcassets */,
+				844AD91B1D694C0D0001AF85 /* LaunchScreen.storyboard */,
+				844AD91E1D694C0D0001AF85 /* Info.plist */,
+				844AD90D1D694C0D0001AF85 /* Supporting Files */,
+			);
+			path = XDHMonthPickerDemo;
+			sourceTree = "<group>";
+		};
+		844AD90D1D694C0D0001AF85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				844AD90E1D694C0D0001AF85 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		844AD9261D694C0D0001AF85 /* XDHMonthPickerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				844AD9271D694C0D0001AF85 /* XDHMonthPickerDemoTests.m */,
+				844AD9291D694C0D0001AF85 /* Info.plist */,
+			);
+			path = XDHMonthPickerDemoTests;
+			sourceTree = "<group>";
+		};
+		844AD9311D694C0D0001AF85 /* XDHMonthPickerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				844AD9321D694C0D0001AF85 /* XDHMonthPickerDemoUITests.m */,
+				844AD9341D694C0D0001AF85 /* Info.plist */,
+			);
+			path = XDHMonthPickerDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844AD9091D694C0D0001AF85 /* XDHMonthPickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844AD9371D694C0D0001AF85 /* Build configuration list for PBXNativeTarget "XDHMonthPickerDemo" */;
+			buildPhases = (
+				844AD9061D694C0D0001AF85 /* Sources */,
+				844AD9071D694C0D0001AF85 /* Frameworks */,
+				844AD9081D694C0D0001AF85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XDHMonthPickerDemo;
+			productName = XDHMonthPickerDemo;
+			productReference = 844AD90A1D694C0D0001AF85 /* XDHMonthPickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		844AD9221D694C0D0001AF85 /* XDHMonthPickerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844AD93A1D694C0D0001AF85 /* Build configuration list for PBXNativeTarget "XDHMonthPickerDemoTests" */;
+			buildPhases = (
+				844AD91F1D694C0D0001AF85 /* Sources */,
+				844AD9201D694C0D0001AF85 /* Frameworks */,
+				844AD9211D694C0D0001AF85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				844AD9251D694C0D0001AF85 /* PBXTargetDependency */,
+			);
+			name = XDHMonthPickerDemoTests;
+			productName = XDHMonthPickerDemoTests;
+			productReference = 844AD9231D694C0D0001AF85 /* XDHMonthPickerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		844AD92D1D694C0D0001AF85 /* XDHMonthPickerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844AD93D1D694C0D0001AF85 /* Build configuration list for PBXNativeTarget "XDHMonthPickerDemoUITests" */;
+			buildPhases = (
+				844AD92A1D694C0D0001AF85 /* Sources */,
+				844AD92B1D694C0D0001AF85 /* Frameworks */,
+				844AD92C1D694C0D0001AF85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				844AD9301D694C0D0001AF85 /* PBXTargetDependency */,
+			);
+			name = XDHMonthPickerDemoUITests;
+			productName = XDHMonthPickerDemoUITests;
+			productReference = 844AD92E1D694C0D0001AF85 /* XDHMonthPickerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844AD9021D694C0C0001AF85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = XuDeHong;
+				TargetAttributes = {
+					844AD9091D694C0D0001AF85 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TTY47Y3GT3;
+					};
+					844AD9221D694C0D0001AF85 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TTY47Y3GT3;
+						TestTargetID = 844AD9091D694C0D0001AF85;
+					};
+					844AD92D1D694C0D0001AF85 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TTY47Y3GT3;
+						TestTargetID = 844AD9091D694C0D0001AF85;
+					};
+				};
+			};
+			buildConfigurationList = 844AD9051D694C0C0001AF85 /* Build configuration list for PBXProject "XDHMonthPickerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 844AD9011D694C0C0001AF85;
+			productRefGroup = 844AD90B1D694C0D0001AF85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844AD9091D694C0D0001AF85 /* XDHMonthPickerDemo */,
+				844AD9221D694C0D0001AF85 /* XDHMonthPickerDemoTests */,
+				844AD92D1D694C0D0001AF85 /* XDHMonthPickerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		844AD9081D694C0D0001AF85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844AD91D1D694C0D0001AF85 /* LaunchScreen.storyboard in Resources */,
+				84D536281D694D250053BE0F /* MonthPickerViewController.xib in Resources */,
+				844AD91A1D694C0D0001AF85 /* Assets.xcassets in Resources */,
+				844AD9181D694C0D0001AF85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844AD9211D694C0D0001AF85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844AD92C1D694C0D0001AF85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844AD9061D694C0D0001AF85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844AD9151D694C0D0001AF85 /* ViewController.m in Sources */,
+				84D536271D694D250053BE0F /* MonthPickerViewController.m in Sources */,
+				844AD9121D694C0D0001AF85 /* AppDelegate.m in Sources */,
+				84D5362B1D694D4F0053BE0F /* UIView+Category.m in Sources */,
+				844AD90F1D694C0D0001AF85 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844AD91F1D694C0D0001AF85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844AD9281D694C0D0001AF85 /* XDHMonthPickerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844AD92A1D694C0D0001AF85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844AD9331D694C0D0001AF85 /* XDHMonthPickerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		844AD9251D694C0D0001AF85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 844AD9091D694C0D0001AF85 /* XDHMonthPickerDemo */;
+			targetProxy = 844AD9241D694C0D0001AF85 /* PBXContainerItemProxy */;
+		};
+		844AD9301D694C0D0001AF85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 844AD9091D694C0D0001AF85 /* XDHMonthPickerDemo */;
+			targetProxy = 844AD92F1D694C0D0001AF85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		844AD9161D694C0D0001AF85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844AD9171D694C0D0001AF85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		844AD91B1D694C0D0001AF85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844AD91C1D694C0D0001AF85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		844AD9351D694C0D0001AF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		844AD9361D694C0D0001AF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		844AD9381D694C0D0001AF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XDHMonthPickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XuDeHong.XDHMonthPickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		844AD9391D694C0D0001AF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XDHMonthPickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XuDeHong.XDHMonthPickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		844AD93B1D694C0D0001AF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XDHMonthPickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XuDeHong.XDHMonthPickerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XDHMonthPickerDemo.app/XDHMonthPickerDemo";
+			};
+			name = Debug;
+		};
+		844AD93C1D694C0D0001AF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XDHMonthPickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XuDeHong.XDHMonthPickerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XDHMonthPickerDemo.app/XDHMonthPickerDemo";
+			};
+			name = Release;
+		};
+		844AD93E1D694C0D0001AF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XDHMonthPickerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XuDeHong.XDHMonthPickerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XDHMonthPickerDemo;
+			};
+			name = Debug;
+		};
+		844AD93F1D694C0D0001AF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XDHMonthPickerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XuDeHong.XDHMonthPickerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XDHMonthPickerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844AD9051D694C0C0001AF85 /* Build configuration list for PBXProject "XDHMonthPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844AD9351D694C0D0001AF85 /* Debug */,
+				844AD9361D694C0D0001AF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844AD9371D694C0D0001AF85 /* Build configuration list for PBXNativeTarget "XDHMonthPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844AD9381D694C0D0001AF85 /* Debug */,
+				844AD9391D694C0D0001AF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844AD93A1D694C0D0001AF85 /* Build configuration list for PBXNativeTarget "XDHMonthPickerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844AD93B1D694C0D0001AF85 /* Debug */,
+				844AD93C1D694C0D0001AF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844AD93D1D694C0D0001AF85 /* Build configuration list for PBXNativeTarget "XDHMonthPickerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844AD93E1D694C0D0001AF85 /* Debug */,
+				844AD93F1D694C0D0001AF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 844AD9021D694C0C0001AF85 /* Project object */;
+}
