@@ -2,4 +2,4 @@
 
 效果图：
 
-![screenshot](https://github.com/XuDeHong/XDHMonthPickerDemo/blob/master/screenshot.gif "screenshot")
+![screenshot](https://coding.net/u/XuDeHong/p/XDHMonthPickerDemo/git/blob/master/screenshot.gif "screenshot")
